@@ -17,7 +17,7 @@ class Ideone
 			}
 			else
 			{
-				System.out.println("Consonent");
+				System.out.println("Consonant");
 			}
       }
 		else
