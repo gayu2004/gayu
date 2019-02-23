@@ -19,7 +19,7 @@ class Java {
         }
 
         if(total == n)
-            System.out.println(" yes");
+            System.out.println("yes");
         else
             System.out.println("no");
     }
