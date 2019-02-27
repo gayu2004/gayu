@@ -32,7 +32,7 @@ class Ideone
             }
 
             if (result == n)
-                System.out.print(n+" ");
+                System.out.print(n+"");
             }
        }
    }
