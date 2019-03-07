@@ -13,7 +13,7 @@ class Ideone
 		do {
 			if(cn% n== 0) {
 				mul++;
-				System.out.print(" "+cn);
+				System.out.print(""+cn);
 			}
 			cn++;
 		} while(mul<5);
