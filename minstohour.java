@@ -14,7 +14,7 @@ class Ideone
         int min;
         System.out.print("");
         min =s.nextInt();
-        int d=min/60;a
+        int d=min/60;
         int m=min%60;
         System.out.println(d+""+" "+m+"");     
 
