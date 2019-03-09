@@ -1,0 +1,32 @@
+create database gayu1;
+use gayu1;
+create table person(id int,name varchar(50),rno varchar(50),dep varchar(50));
+create table indhu(id int,name varchar(50),rno varchar(50),dep varchar(50));
+
+show tables;
+desc person;
+insert into person values(12,"gayu","16cs027","cse");
+insert into person values(12,"gayu","16cs027","cse");
+insert into person values(12,"gayu","16cs027","cse");
+select * from person;
+drop table indhu;
+create table daisy(id int,name varchar(50),rno varchar(50),dep varchar(50));
+insert into daisy values(12,"gayu","16cs028","cse");
+insert into daisy values(12,"gayu","16cs029","cse");
+select * from daisy;
+alter table daisy add city varchar(50);
+desc daisy;
+alter table daisy drop column name;
+desc daisy;
+create table maha(id int,name varchar(50),rno varchar(50),dep varchar(50),primary key(id) );
+insert into maha values(12,"gayu","16cs028","cse");
+insert into maha values(13,"gayu","16cs029","cse");
+select * from maha;
+create table mah(id int not null auto_increment,name varchar(50),rno varchar(50),dep varchar(50),primary key(id));
+insert into mah(name,rno,dep) values("gayu","16cs028","cse");
+insert into mah (name,rno,dep) values("gayu","16cs029","cse");
+insert into mah (name,rno,dep) values("gayu","16cs039","cse");
+insert into mah (name,rno,dep) values("gayu","16cs049","cse");
+select * from mah;
+update mah set name="megu" where id=2;
+
